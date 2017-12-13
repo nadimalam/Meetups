@@ -10,4 +10,6 @@
 
 @interface GroupBuilder : NSObject
 
++ (NSArray *)groupsFromJSON:(NSData *)objectNotation error:(NSError **)error;
+
 @end

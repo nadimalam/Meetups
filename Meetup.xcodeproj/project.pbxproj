@@ -8,27 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		087ACFCE1FE0490A00B68475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFCD1FE0490A00B68475 /* AppDelegate.m */; };
-		087ACFD11FE0490A00B68475 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFD01FE0490A00B68475 /* MasterViewController.m */; };
-		087ACFD41FE0490A00B68475 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFD31FE0490A00B68475 /* DetailViewController.m */; };
 		087ACFD71FE0490A00B68475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087ACFD51FE0490A00B68475 /* Main.storyboard */; };
 		087ACFD91FE0490A00B68475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087ACFD81FE0490A00B68475 /* Assets.xcassets */; };
 		087ACFDC1FE0490A00B68475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087ACFDA1FE0490A00B68475 /* LaunchScreen.storyboard */; };
 		087ACFDF1FE0490A00B68475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFDE1FE0490A00B68475 /* main.m */; };
+		087ACFEC1FE04E6500B68475 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFEB1FE04E6500B68475 /* Group.m */; };
+		087ACFF21FE0521800B68475 /* MeetupCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFF11FE0521800B68475 /* MeetupCommunicator.m */; };
+		087ACFF51FE0527800B68475 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087ACFF41FE0527800B68475 /* CoreLocation.framework */; };
+		087ACFF91FE0543300B68475 /* GroupBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFF81FE0543300B68475 /* GroupBuilder.m */; };
+		087ACFFE1FE0555500B68475 /* MeetupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ACFFD1FE0555500B68475 /* MeetupManager.m */; };
+		087AD0021FE0585000B68475 /* MeetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087AD0011FE0585000B68475 /* MeetupViewController.m */; };
+		087AD0061FE05B5C00B68475 /* MeetupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 087AD0051FE05B5C00B68475 /* MeetupTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		087ACFC91FE0490A00B68475 /* Meetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		087ACFCC1FE0490A00B68475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		087ACFCD1FE0490A00B68475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		087ACFCF1FE0490A00B68475 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		087ACFD01FE0490A00B68475 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		087ACFD21FE0490A00B68475 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		087ACFD31FE0490A00B68475 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		087ACFD61FE0490A00B68475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		087ACFD81FE0490A00B68475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087ACFDB1FE0490A00B68475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		087ACFDD1FE0490A00B68475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		087ACFDE1FE0490A00B68475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		087ACFEA1FE04E6500B68475 /* Group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		087ACFEB1FE04E6500B68475 /* Group.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		087ACFED1FE04EC800B68475 /* MeetupCommunicatorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupCommunicatorDelegate.h; sourceTree = "<group>"; };
+		087ACFF01FE0521800B68475 /* MeetupCommunicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupCommunicator.h; sourceTree = "<group>"; };
+		087ACFF11FE0521800B68475 /* MeetupCommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupCommunicator.m; sourceTree = "<group>"; };
+		087ACFF41FE0527800B68475 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		087ACFF71FE0543300B68475 /* GroupBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupBuilder.h; sourceTree = "<group>"; };
+		087ACFF81FE0543300B68475 /* GroupBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuilder.m; sourceTree = "<group>"; };
+		087ACFFA1FE054F100B68475 /* MeetupManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupManagerDelegate.h; sourceTree = "<group>"; };
+		087ACFFC1FE0555500B68475 /* MeetupManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupManager.h; sourceTree = "<group>"; };
+		087ACFFD1FE0555500B68475 /* MeetupManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupManager.m; sourceTree = "<group>"; };
+		087AD0001FE0585000B68475 /* MeetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupViewController.h; sourceTree = "<group>"; };
+		087AD0011FE0585000B68475 /* MeetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupViewController.m; sourceTree = "<group>"; };
+		087AD0041FE05B5C00B68475 /* MeetupTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetupTableViewCell.h; sourceTree = "<group>"; };
+		087AD0051FE05B5C00B68475 /* MeetupTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetupTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087ACFF51FE0527800B68475 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +64,7 @@
 			children = (
 				087ACFCB1FE0490A00B68475 /* Meetup */,
 				087ACFCA1FE0490A00B68475 /* Products */,
+				087ACFF31FE0527800B68475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +79,109 @@
 		087ACFCB1FE0490A00B68475 /* Meetup */ = {
 			isa = PBXGroup;
 			children = (
+				087ACFDD1FE0490A00B68475 /* Info.plist */,
 				087ACFCC1FE0490A00B68475 /* AppDelegate.h */,
 				087ACFCD1FE0490A00B68475 /* AppDelegate.m */,
-				087ACFCF1FE0490A00B68475 /* MasterViewController.h */,
-				087ACFD01FE0490A00B68475 /* MasterViewController.m */,
-				087ACFD21FE0490A00B68475 /* DetailViewController.h */,
-				087ACFD31FE0490A00B68475 /* DetailViewController.m */,
+				087ACFFB1FE0554300B68475 /* Managers */,
+				087ACFEF1FE051FC00B68475 /* Network */,
+				087ACFEE1FE04F2E00B68475 /* Protocols */,
+				087ACFF61FE0542400B68475 /* Data */,
+				087ACFE71FE04DDC00B68475 /* Model */,
+				087AD0031FE05B2800B68475 /* Views */,
+				087ACFFF1FE0560700B68475 /* View Controllers */,
+				087ACFE61FE0494800B68475 /* User Interface */,
+				087ACFE51FE0492100B68475 /* Supporting Files */,
+			);
+			path = Meetup;
+			sourceTree = "<group>";
+		};
+		087ACFE51FE0492100B68475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFDE1FE0490A00B68475 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		087ACFE61FE0494800B68475 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
 				087ACFD51FE0490A00B68475 /* Main.storyboard */,
 				087ACFD81FE0490A00B68475 /* Assets.xcassets */,
 				087ACFDA1FE0490A00B68475 /* LaunchScreen.storyboard */,
-				087ACFDD1FE0490A00B68475 /* Info.plist */,
-				087ACFDE1FE0490A00B68475 /* main.m */,
 			);
-			path = Meetup;
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		087ACFE71FE04DDC00B68475 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFEA1FE04E6500B68475 /* Group.h */,
+				087ACFEB1FE04E6500B68475 /* Group.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		087ACFEE1FE04F2E00B68475 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFED1FE04EC800B68475 /* MeetupCommunicatorDelegate.h */,
+				087ACFFA1FE054F100B68475 /* MeetupManagerDelegate.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		087ACFEF1FE051FC00B68475 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFF01FE0521800B68475 /* MeetupCommunicator.h */,
+				087ACFF11FE0521800B68475 /* MeetupCommunicator.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		087ACFF31FE0527800B68475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFF41FE0527800B68475 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		087ACFF61FE0542400B68475 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFF71FE0543300B68475 /* GroupBuilder.h */,
+				087ACFF81FE0543300B68475 /* GroupBuilder.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		087ACFFB1FE0554300B68475 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				087ACFFC1FE0555500B68475 /* MeetupManager.h */,
+				087ACFFD1FE0555500B68475 /* MeetupManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		087ACFFF1FE0560700B68475 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				087AD0001FE0585000B68475 /* MeetupViewController.h */,
+				087AD0011FE0585000B68475 /* MeetupViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		087AD0031FE05B2800B68475 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				087AD0041FE05B5C00B68475 /* MeetupTableViewCell.h */,
+				087AD0051FE05B5C00B68475 /* MeetupTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +255,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				087ACFD11FE0490A00B68475 /* MasterViewController.m in Sources */,
+				087ACFF21FE0521800B68475 /* MeetupCommunicator.m in Sources */,
 				087ACFCE1FE0490A00B68475 /* AppDelegate.m in Sources */,
+				087ACFEC1FE04E6500B68475 /* Group.m in Sources */,
+				087ACFF91FE0543300B68475 /* GroupBuilder.m in Sources */,
+				087AD0061FE05B5C00B68475 /* MeetupTableViewCell.m in Sources */,
+				087AD0021FE0585000B68475 /* MeetupViewController.m in Sources */,
+				087ACFFE1FE0555500B68475 /* MeetupManager.m in Sources */,
 				087ACFDF1FE0490A00B68475 /* main.m in Sources */,
-				087ACFD41FE0490A00B68475 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

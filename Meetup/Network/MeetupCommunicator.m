@@ -14,20 +14,25 @@
 
 @implementation MeetupCommunicator
 
-- (void)searchGroupsAtCoordinate:(CLLocationCoordinate2D)coordinate {
-    
+- (void)searchGroupsAtCoordinate:(CLLocationCoordinate2D)coordinate
+{
     NSString *urlAsString = [NSString stringWithFormat:@"https://api.meetup.com/2/groups?lat=%f&lon=%f&page=%d&key=%@", coordinate.latitude, coordinate.longitude, PAGE_COUNT, API_KEY];
-    NSURL *url = [[NSURL alloc] initWithString:urlAsString];
+    
     NSLog(@"%@", urlAsString);
     
-    [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:url] queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
-        
-        if (error) {
-            [self.delegate fetchingGroupsFailedWithError:error];
-        } else {
-            [self.delegate receivedGroupsJSON:data];
-        }
-    }];
+    NSURLSession *session = [NSURLSession sharedSession];
+    [[session dataTaskWithURL:[NSURL URLWithString:urlAsString]
+            completionHandler:^(NSData *data,
+                                NSURLResponse *response,
+                                NSError *error) {
+                
+                if (error) {
+                    [self.delegate fetchingGroupsFailedWithError:error];
+                } else {
+                    [self.delegate receivedGroupsJSON:data];
+                }
+                
+    }] resume];
 }
 
 @end

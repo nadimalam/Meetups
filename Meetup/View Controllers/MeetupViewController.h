@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface MeetupViewController : UIViewController
+@interface MeetupViewController : UITableViewController <CLLocationManagerDelegate> {
+    CLLocationManager *locationManager;
+}
 
 @end
